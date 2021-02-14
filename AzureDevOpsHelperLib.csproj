@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>0.0.2.1</Version>
+    <Authors>jplck</Authors>
+    <Description>A simple wrapper for some of the Azure DevOps REST APIs.
+
+Currently includes some commit and pull request APIs.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>jplck</Copyright>
+    <RepositoryUrl>https://github.com/jplck/azure-devops-helper-lib</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
